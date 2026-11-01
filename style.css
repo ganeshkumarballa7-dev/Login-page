@@ -1,0 +1,31 @@
+body{
+  background-color:lightskyblue;
+  text-align: center;
+  display : grid;
+  height: 100vh;
+  place-items: center;
+  margin:0;
+}
+.login{
+  background-color:white;
+  width:300px ;
+  text-align: center;
+  margin: 20px ;
+  padding: 30px 0;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px;
+}
+.login input{
+  margin: 10px 0;
+  padding: 10px;
+  border-radius:10pxpx;
+  border: 1px solid;
+  border-color: lightskyblue;
+}
+.login button{
+  background-color:hwb(240 26% 29%);
+  color: white;
+  width: 95px;
+  padding: 7px;
+  border-radius: 12px;
+  }
