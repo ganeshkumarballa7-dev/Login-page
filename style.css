@@ -1,10 +1,10 @@
 body{
-  background-color:lightskyblue;
   text-align: center;
   display : grid;
   height: 100vh;
   place-items: center;
   margin:0;
+  background:lightskyblue;
 }
 .login{
   background-color:white;
@@ -23,9 +23,22 @@ body{
   border-color: lightskyblue;
 }
 .login button{
-  background-color:hwb(240 26% 29%);
+  background-color:hwb(240 49% 10%);
+  font-weight: bold;
   color: white;
   width: 95px;
   padding: 7px;
   border-radius: 12px;
-  }
+}
+lable {
+  background-color: white ;
+  margin-right:140px;
+}
+select {
+  background-color: white;
+  width:100px;
+  padding: 5px;
+  margin-right:90px;
+  border-style: 5px;
+  border-radius: 2px 2px 2px 2px;
+}
